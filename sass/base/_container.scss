@@ -1,0 +1,29 @@
+.container {
+    // Breakpoints
+    // 1. Mobile screen - 480px
+    // 2. Tablet screen - 768px
+    // 3. Tablet screen - 1200px
+
+    // 1. Mobile screen
+
+    max-width: 480px;
+    margin:0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media screen and (min-width: 768px) {
+            max-width: 768px;
+            margin: 0 auto;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+    @media screen and (min-width: 1200px) {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+}
+
+

@@ -1,0 +1,244 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color: var(--hero-footer-background-color);
+}
+
+.footer-logo-accent {
+    color: var(--primary-white-color);
+}
+
+.footer-contacts {
+    cursor: default;
+
+    color: var(--footer-text-color);
+
+    text-decoration: none;
+}
+
+.footer-address {
+    cursor: default;
+
+    color: var(--primary-white-color);
+
+    text-decoration: none;
+
+}
+
+.address {
+    display: inline;
+    font-style: normal;
+}
+
+
+
+
+.footer .container .address .list {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: 1200px) {
+        align-items: flex-start;
+        }
+
+}
+
+.footer-item {
+    margin-bottom: 9px;
+}
+
+.footer .footer-item {
+
+    &:last-child 
+    {margin-bottom: 0px;
+    }
+}
+
+
+.container.footer-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+        @media screen and (min-width: 768px) {
+        flex-direction: row;
+        flex-wrap: wrap;   
+        }
+    
+        @media screen and (min-width: 1200px) {
+        justify-content: space-between;
+        }
+}
+
+.contact-footer-item {
+    display: flex;
+}
+
+.contact-footer-title {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.contact-footer {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center ;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    
+    @media screen and (min-width: 768px) {
+        margin-left: 177px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }    
+    @media screen and (min-width: 1200px) {
+        margin: 0px;
+        align-items: flex-start;
+        margin-top: 12px;
+    }
+
+}
+
+
+
+/* icon */
+
+.contact-team-list-footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact-team-footer {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    fill: var(--primary-white-color);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+
+    transition: fill 250ms, background-color 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.contact-team-footer {
+
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    fill: var(--primary-white-color);
+    }
+}
+
+
+
+/*форма підписка на розсилку*/
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 60px;
+                
+            }
+
+    @media screen and (min-width: 1200px) {
+        margin-top: 12px;
+        align-items: flex-start;
+
+            }
+    }
+
+.footer-input {
+    width: 450px;
+    height: 50px;
+    padding: 0px;
+    padding-left: 16px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+
+
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width: 768px) {}
+        
+    @media screen and (min-width: 1200px) {
+        width: 358px;
+    }
+}
+
+.btn-footer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 200px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: transparent;
+
+}
+
+.form-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    @media screen and (min-width: 768px) {}
+    
+    @media screen and (min-width: 1200px) {
+        flex-direction: row;
+    }
+  
+}
+
+.footer .logo {
+    display: flex;
+    justify-content: center;
+    @media screen and (min-width: 1200px) {
+            justify-content: left;
+        }
+}
+
